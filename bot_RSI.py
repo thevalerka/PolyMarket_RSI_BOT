@@ -1327,7 +1327,7 @@ def main():
     try:
         # Load credentials
         try:
-            env_path = '/home/ubuntu/013_2025_polymarket/keys/keys_ovh40.env'
+            env_path = 'YOUR_ENV_PATH'
             credentials = load_credentials_from_env(env_path)
             print(f"✅ Credentials loaded from {env_path}")
         except Exception as e:
